@@ -25,7 +25,7 @@ public class PersonalUserServiceTest {
         personalUser.setActive(true);
         personalUser.setName("Hala");
         personalUser.setSurname("Aniba");
-        personalUser.setAge(38);
+        personalUser.setAge(23);
 
         PersonalUser userFromDB = userRepository.save(personalUser);
         assertThat(userFromDB).isNotNull();
